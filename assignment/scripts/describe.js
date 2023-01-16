@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We made a variable called 'name' and set it to 'Dane'
+// We chacked to see if name was 'mary'. If so, consolelog "Hi, Marry"
+// name is not 'Marry', consle.log output is 'How do you do?'
 //
 
 //CODE
@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// create variable called sercret, and defined it as 123. If code equals 123, sercret than equals 'super', then code multiplys by 2.
+// code now equals 246. which is less than 250.
+// console.log output is 'super'
 //
 
 //CODE
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create 3 variables, isStudent equals true, age eqauls 34, and zip equals 55407.
+// If isStudent equals true, and zip is greater than 80000, we consloe.log 'You're a student on the west coast!'
+// If isStudent is false or age is less than 30, console.log 'What are your hobbies?'
+//If isStudent is true, console.log 'Welcome to Prime!'
+// Or else, console.log 'How about the weather?'
 
 //CODE
 /*
@@ -135,6 +136,7 @@ let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  // FIX-- colorOne already has value of 'Red'. colorTwo is unused, and new variable should be made for 'purple'.
   colorOne = 'purple';
 }
 */
@@ -142,6 +144,9 @@ if (mix === true) {
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
+
+// FIX- We do not start with two variables. We have one variable and one constant.
+// also, code states temp OR time, when description states AND.
 
 /*
 let temp = 40;
@@ -159,7 +164,8 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+// FIX-- Discription says to check if age is GREATER THAN or equal to min age. currently code will check LESS THAN or equal to.
+// Also, checking -equal to- will deny enrty to all people at min age.
 if(minAge <= age) {
   console.log('no entry');
 } else {
